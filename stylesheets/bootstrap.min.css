@@ -9,11 +9,28 @@
     width: 226px !important;
 }
 
+#home .header-background{
+    background: url("../images/bg.png") no-repeat !important;
+     /*background-size: 80px 60px;*/
+}
+
+
+@media screen and (max-width: 990px) {
+
+    #home #v-card-holder #v-card .info-headings{
+        max-width: 514px !important;
+    }
+    #home #v-card-holder #v-card .infos{
+        max-width: 514px !important;
+    }
+
+}
 
 @media screen and (max-width: 767px) {
 
     #home img{
-      height: 222px !important;
-      border-radius: 24% !important;
+        height: 222px !important;
+        border-radius: 24% !important;
     }
 }
+
