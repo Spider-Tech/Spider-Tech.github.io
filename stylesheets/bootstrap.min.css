@@ -11,7 +11,14 @@
 
 #home .header-background{
     background: url("../images/bg.png") no-repeat !important;
-     /*background-size: 80px 60px;*/
+    /*background-size: 80px 60px;*/
+}
+
+#home a{
+    color: #fff !important;
+}
+#home a:hover{
+    text-decoration: underline;
 }
 
 
